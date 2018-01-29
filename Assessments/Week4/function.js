@@ -4,39 +4,55 @@
   You should use the below patterns to write your functions:
   ```
   function {{name_of_function}} {
-    // Write your code here
+
   }
 
   OR
 
   const {{name_of_function}} = () => {
-    // Write your code here
+
   }
 
   ```
 */
 
-// 1. write a function that takes a number as a parameter and returns it as a
-// string
+ function isEven(num) {
+   if(num/2 === 0){
+     return 'correct';
+   }else{
+     return 'incorrect';
+   }
+ }
 
-// 2. write a function that takes a number as a parameter and returns that
-// number subtracted by 1
 
-// 3. write a function that takes a number as a parameter and returns that
-// number added by 1
 
-// 4. write a function that takes two number as its parameters and returns the
-// addition of those two numbers
+function subtractByOne(x) {
+  return x-=1;
+}
+function addByOne(x) {
+  return x+=1;
+}
+function addByOne(x,y) {
+  return (x+y);
+}
 
-// 5. write a function that takes a number as its parameter and returns the
-// squared of that number
+function square(x,y){
+  return (x**2,b**2);
+}
 
-// 6. write a function that takes a number and returns true if the number is odd
-// and false if it is not
+function isOdd(num){
+  if(num/2!===0){
+    return true;
+  }else{
+    return false;
+  }
+}
 
-// 7. write a function that takes two strings as its parameters and returns the
-// combination of those two strings
+function (x,y){
+  return '....'+,"=x+",+y+'....'+
+}
 
-// 8. write a function that takes the radius of a circle a parameter and returns
-// the Area of the circle.
-// For this exercise π (pie) can equal `3.14`
+function area(radius){
+  let area = 3.14*(radius**2);
+  return area;
+}
